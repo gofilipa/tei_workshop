@@ -18,7 +18,7 @@ As you might have guessed, each of these opening tags is followed by an end tag.
 
 Like the title elements, the next two elements are also nested by the fileDesc. These are the publication and source info.
 
-**&lt;publicationStmt>** -- nests information concerning the publication or distribution of a source text.
+**&lt;publicationStmt>** -- nests information concerning the publication or distribution of a source text.\
 **&lt;sourceDesc>** -- describes where the source text was derived or generated, typically a bibliographic statement.
 
 Though this might seem like a lot, there are many more elements that you could include in the header to describe metadata about the source text. The ones above are only the *minimum* required by the TEI schema. All together, properly nested and populated, the header should look soemthing like this:
@@ -40,24 +40,41 @@ Though this might seem like a lot, there are many more elements that you could i
     </teiHeader>
 
 Other potentially useful tags for the TEI head include: 
-**&lt;revisionDesc>** -- summarizes the revision history for a file.
+**&lt;revisionDesc>** -- summarizes the revision history for a file.\
 **&lt;changeDesc>** -- groups a number of change descriptions associated with either the creation of a source text or its revision history. Each encoded change is nested by the **&lt;change>** element. 
 
-From another module, the Manuscript Description module, we might be interested in adding an element that describes the identities of the writers in the document. This general tag, **&lt;handDesc> is then paired with a more practical tag, **&lt;handShift> which is used in the areas of the document where the identitity of the writer, or "hand", has changed. 
+From another module, the *Manuscript Description* module, we might be interested in adding an element that describes the identities of the writers in the document. This general tag, **&lt;handDesc>** is then paired with a more practical tag, **&lt;handShift>** which is used in the areas of the document where the identitity of the writer, or "hand", has changed. 
 
-**&lt;handDesc>** -- contains a description of all the different hands used in a manuscript or other object.
+**&lt;handDesc>** -- contains a description of all the different hands used in a manuscript or other object.\
 **&lt;handShift>** -- marks the beginning of a sequence of text written in a new hand, or the beginning of a scribal stint.
 
 This is a lot of information for now--but don't worry! For our class exercise, you don't need to work with the header at all. Your encoding work will be focusing solely on the body section. So, if the header is TMI for now, you can always come back to it later. 
 
 ## The Body
 
-In the body section, we will be discussing two elements that are relevent to our project, and one element that is 
-**&lt;sourceDoc>** \
-**&lt;surface>**
+The body section is the second half of a TEI document, and it forms the main section of the document. When a TEI document is transformed, all you will see is the body section. It is important to remember that this section, *along with the header*, is enclosed by the TEI tags.
+
+The header section ends with a TEI header end tag: **&lt;/teiHeader>**. The body section begins with a **&lt;sourceDoc>**. This tag will enclose the entirety of the body, and is nested within the **&lt;TEI>** tag, which encloses the whole document, including the header. these outer tags for the head and body, therefore, look like this:
+
+    <TEI> # this opens the TEI document
+        <teiHeader> # this opens the head
+            <...> # header info goes in here
+        </teiHeader> # this closes the head
+        <sourceDoc> # this opens the body
+            <...> # body info goes in here
+        </sourceDoc> # this closes the body
+    </TEI> # this closes the TEI document
+
+For our purposes, you might think of the **&lt;sourceDoc>** element a "body" tag in HTML. It functions in just the same way. Besides **&lt;sourceDoc>**, we will also be looking at the **&lt;surface>**, which is nested inside the **&lt;sourceDoc>** element. 
+
+The **&lt;surface>** element defines a *written surface* as a two-dimensional coordinate space, optionally grouping one or more graphic representations of that space, zones of interest within that space, and transcriptions of the writing within them. Basically, it creates a plane where you can then pinpoint specific coordinates for written elements to appear, kind of like making a literal map of the textual surface. That being said, you don't need to use the coordinate function (though it can be beneficial). You can simply indicate that a surface exists, and move on to transcribing the elements within that surface. 
+
+## Potential Problems Arise!
+
+By now, you will see that 
+
 
 <!---
-The <surface> has an xml:id attribute. On the <div> element in the transcription we have added a facs attribute. The value of the facs attribute is a url. The value '#graves1938-10-10-1' points to the element with xml:id attribute 'graves1938-10-10-1', that is, the <surface> element. The <surface> element contains the <graphic> element that is an image of the current page. The reason we do this is that we have now explicitly defined the relation between the transcription and the corresponding image files. Later users of the transcription will know what belongs together. What may be more important: applications that want to render the transcription will no longer need to know about the names of the image files. They can just fetch the files that are needed from the location as it is specified in the Guidelines.
 <listPerson>
 The participant description in the TEI header, <particDesc>, can contain a list of persons (a <listPerson> element containing <person>s). For each <person> we could give a structured description in terms of a number of characteristics (sex, age, etc). But we can also limit ourselves to an informal description using a <p> element.
 Whenever a specific person occurs, we can then refer to the description of that person in the header. The element that we will use to refer to the description is the <rs> element. The <rs> element (referring string) is somewhat like a name element, but more generic: names are referring strings, but so are 'her oldest son' or 'the gardener'.
