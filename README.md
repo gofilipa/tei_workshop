@@ -9,19 +9,28 @@ For today's workshop, we will be delving into the workings of TEI and practice u
 [Get Started>>>](slides/what_is_tei.md)
 
 ## Table of Contents
-What is TEI?
-What is XML?
-TEI Consortium
-Elements, Attributes, Structure
-Primary Source Encoding & Dorian Gray
-Preliminary Questions for Document Analysis
-The Header & DTD
-The Surface
-Elements for Primary Source Encoding
-Validating your TEI
-Committing Changes to Github
+[What is TEI?](slides/what_is_tei.md)\
+[What is XML?](slides/what_is_xml.md)\
+[TEI Consortium](slides/teic.md)\
+[Basic Architecture](slides/basic_architecture.md)\
+[Primary Source Encoding](slides/primary_source_encoding.md)\
+[Preliminary Questions for Document Analysis](slides/document_analysis.md)\
+[The Header & DTD](slides/header_DTD.md)\
+[The Surface](slides/surface.md)\
+[Elements for Primary Source Encoding](slides/elements.md)\
+[Validating your TEI](slides/validation.md)\
+[Try it yourself!](slides/practice.md)
 
 ## Resources
 
+[TEI by Example]()
+
 ## Bibliography
 
+Birnbaum, David J. [“What is XML and Why Should Humanists Care?”](http://dh.obdurodon.org/what-is-xml.xhtml)
+
+*Text Encoding Consortium (TEI-C)*, ["TEI: Text Encoding Initiative".](https://tei-c.org/)
+
+McGann, Jerome. *Radiant Textuality: Literature after the World Wide Web.* 2001.]
+
+*Women Writers Project*, ["What is the TEI?"](https://wwp.northeastern.edu/outreach/seminars/tei.html).
