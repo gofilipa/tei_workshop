@@ -4,9 +4,9 @@
 
 ### Defining TEI
 
-**TEI stands for *Text Encoding Initiative*. Put most simply, TEI is a set of guidelines for the encoding of text. In more technical terms, it is a *markup schema* for representing the *structural, renditional,* and *conceptual features of texts*.** 
+TEI stands for *Text Encoding Initiative*. Put most simply, TEI is a set of guidelines for the encoding of text. In more technical terms, it is a **markup schema** for representing the **structural, renditional,** and **conceptual features of texts**.
 
-**TEI guidelines are based off XML, the eXtensible Markup Language, and were developed and are currently maintained by a scholarly and academic collective known as the TEI Consortium.**
+TEI guidelines are based off **XML**, the eXtensible Markup Language, and were developed and are currently maintained by a scholarly and academic collective known as the **TEI Consortium**.
 
 Let's take apart this definition, bracketing (for now) the references to the TEI-C and XML, which we will discuss later. 
 
@@ -21,17 +21,17 @@ Markup schema, in other words, is a series of marks that indicate how a text oug
 - Renditional: concerns how text renders visually on a page or screen, such as spacing and alignment.
 - Conceptual: concerns the content of text, its meaning, cultural or personal references.
 
-Markup therefore describes some aspect of the text, either by adding additional organizational, visible, or informational elements about that text. These elements range from the more objective, physical traces on the page/screen to the more subjective ideas and assumptions about meaning and references behind the words. 
+Markup therefore describes some aspect of the text by adding additional organizational, visible, or informational elements about that text. These elements range from the more objective, physical traces on the page/screen to the more subjective ideas and assumptions about meaning and references behind the visible elements. 
 
 ## EXAMPLE--IMAGE FROM WWP?????
 
 ### Incommensurability 
 
-With TEI, a text is encoded into a computer in a way that is searchable, presentable, and readable (interpretable) by the human. Encoding with TEI also adds the benefit of making the text *sustainable* across platforms. Because the format of the TEI itself is built from an extensible and non-invasive markup language (XML), it is widely useable and customizable, and will outlast more stylized file formats like a Microsoft Word document. 
+With TEI, a text is encoded into a computer in a way that is searchable, presentable, and readable (interpretable) by the human. Encoding with TEI also adds the benefit of making the text *sustainable* across platforms. Because the format of the TEI itself is built from an extensible and non-invasive markup language (XML), it is widely used and customizable, and will outlast more stylized file formats like a Microsoft Word document. 
 
 While this makes TEI documents increasingly portable, it also creates the potential for problems regarding the handling of textual data. As humanists well know, textual data is open to interpretation. However, in order to be useful, the computer (and TEI specifically) imposes a certain level of fixity on textual data. In every text, there are what Jerome McGann calls “incommensurable elements”---elements that cannot be quantified, pinned down, or “tagged” in a fixed way. 
 
-Though the strict tagging schema of TEI may inadvertantly encourage encoders to resolve a text’s inherent incommensurability, it does a good job addressing the more fixed and disambiguated textual elements in a way that reflects widespread agreeement *consensus* about these, while opening itself to more complex tasks. 
+Though the strict tagging schema of TEI may inadvertantly encourage encoders to resolve a text’s inherent incommensurability, it does a good job addressing the more fixed and disambiguated textual elements in a way that reflects widespread *consensus* about these, while opening itself to more complex tasks. 
 
 These questions, posed by the WWP, adequately frame how TEI might face such challenges: 
 
@@ -46,13 +46,13 @@ According to the WWP:
 
 In other words, TEI is built from a language (actually, a meta-language) that allows its users, in turn, to build their own version of that language. There is a potential here for representing the elements necessary to your project project by constructing these elements yourself. It also allows you to mix and match existing modules in order to meet your specific needs. 
 
-Though this doesn't solve all issues relating to textual incommensurability, it's a start. In the next section, we are going to look a little bit at XML to get a glimpse of its potential for modularity and extensibility. 
+Though this doesn't solve all issues relating to textual incommensurability, it's a start. In the next section, we are going to look a little bit at XML to get a glimpse of its potential for extensibility. 
 
 [<<<Previous  ](README.md)[Next>>>](what_is_xml.md)
 
 ## Sources
 
-[McGann, Jerome. *Radiant Textuality: Literature after the World Wide Web.* 2001.]
+McGann, Jerome. *Radiant Textuality: Literature after the World Wide Web.* 2001.
 
 [*Women Writers Project*, "What is the TEI?"](https://wwp.northeastern.edu/outreach/seminars/tei.html).
 
