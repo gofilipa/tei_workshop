@@ -40,7 +40,7 @@ Even within this module, things can quickly get complicated. As anyone familiar 
 
 Our focus, within the Primary Source module, is on *the diplomatic transcription of manuscripts*. This means that we will focus on a relatively small subset of tags that work to identify and render manuscript elements. For an example of this kind of encoding, refer to the below image from the [Shelley-Godwin Archive](http://shelleygodwinarchive.org/). 
 
-![frankenstein first page](https://github.com/gofilipa/tei_workshop/slide_images/frank_transcription.png)
+![frankenstein first page](slide_images/frank_transcription.png)
 
 This archive provides the digitized manuscripts of Percy Shelley, Mary Wollstonecraft Shelley, William Godwin, and Mary Wollstonecraft. The image shows  
 

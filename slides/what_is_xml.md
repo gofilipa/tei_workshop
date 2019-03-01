@@ -1,4 +1,4 @@
-[<<<Previous  ](what_is_tei.md)  [Next>>>](TEIC.md)
+[<<<Previous  ](what_is_tei.md)  [Next>>>](teic.md)
 
 # What is XML?
 
