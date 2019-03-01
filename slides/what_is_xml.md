@@ -1,4 +1,4 @@
-[<<<Previous  ](what_is_tei.md)  [Next>>>](teic.md)
+[<<<Previous  ](what_is_tei.md)  [Next>>>](modules.md)
 
 # What is XML?
 
@@ -16,14 +16,10 @@ Compared to HTML, a more common tagging language, XML is:
     >&lt;sentence>This is &lt;emphasis>good&lt;/emphasis>form.&lt;/sentence>
 - In general, XML is more interested in the meaning of data than in its presentation. HTML, by contrast, concerns itself with how elements are laid out on the screen.
 
-### The Hierarchy --- Problems to Come
+## The Hierarchy - Problems to Come!
 
 Due to the parent-child relationship between XML and TEI, there are some issues with XML that TEI inherits. One of the most concerning ones, in my opinion, is the *hierarchical* nature of XML. Here is a quote by David Birnbaum which explains what I mean:
 
 >XML is a way of modeling a textual document as an ordered hierarchy, or tree, so that it can be explored with computational tools. Humanities scholars use XML to represent their documents because the tree model is convenient both as a logical representation (some aspects of the inherent structure of documents are tree-like) and for programming purposes (computers can process tree representations efficiently).
 
-[<<<Previous  ](what_is_tei.md)[Next>>>](TEIC.md)
-
-## Sources
-
-[Birnbaum, David J. “What is XML and Why Should Humanists Care?”](http://dh.obdurodon.org/what-is-xml.xhtml)
+[<<<Previous  ](what_is_tei.md)[Next>>>](modules.md)

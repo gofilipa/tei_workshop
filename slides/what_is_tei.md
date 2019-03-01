@@ -2,7 +2,7 @@
 
 # What is TEI?
 
-### Defining TEI
+## Defining TEI
 
 TEI stands for *Text Encoding Initiative*. Put most simply, TEI is a set of guidelines for the encoding of text. In more technical terms, it is a **markup schema** for representing the **structural, renditional,** and **conceptual features of texts**.
 
@@ -25,7 +25,7 @@ Markup therefore describes some aspect of the text by adding additional organiza
 
 ## EXAMPLE--IMAGE FROM WWP?????
 
-### Incommensurability 
+## Incommensurability 
 
 With TEI, a text is encoded into a computer in a way that is searchable, presentable, and readable (interpretable) by the human. Encoding with TEI also adds the benefit of making the text *sustainable* across platforms. Because the format of the TEI itself is built from an extensible and non-invasive markup language (XML), it is widely used and customizable, and will outlast more stylized file formats like a Microsoft Word document. 
 
@@ -49,11 +49,3 @@ In other words, TEI is built from a language (actually, a meta-language) that al
 Though this doesn't solve all issues relating to textual incommensurability, it's a start. In the next section, we are going to look a little bit at XML to get a glimpse of its potential for extensibility. 
 
 [<<<Previous  ](README.md)[Next>>>](what_is_xml.md)
-
-## Sources
-
-McGann, Jerome. *Radiant Textuality: Literature after the World Wide Web.* 2001.
-
-[*Women Writers Project*, "What is the TEI?"](https://wwp.northeastern.edu/outreach/seminars/tei.html).
-
-[*Consortium of Text Encoding*, "TEI: Text Encoding Initiative".](https://tei-c.org/)

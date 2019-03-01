@@ -11,7 +11,7 @@ For today's workshop, we will be delving into the workings of TEI and practice u
 ## Table of Contents
 [What is TEI?](slides/what_is_tei.md)\
 [What is XML?](slides/what_is_xml.md)\
-[TEI Consortium](slides/teic.md)\
+[Modules and Modeling](slides/modules.md)\
 [Basic Architecture](slides/basic_architecture.md)\
 [Primary Source Encoding](slides/primary_source_encoding.md)\
 [Preliminary Questions for Document Analysis](slides/document_analysis.md)\
@@ -29,8 +29,12 @@ For today's workshop, we will be delving into the workings of TEI and practice u
 
 Birnbaum, David J. [“What is XML and Why Should Humanists Care?”](http://dh.obdurodon.org/what-is-xml.xhtml)
 
-*Text Encoding Consortium (TEI-C)*, ["TEI: Text Encoding Initiative".](https://tei-c.org/)
-
 McGann, Jerome. *Radiant Textuality: Literature after the World Wide Web.* 2001.]
 
+[Shelley-Godwin Archive](http://shelleygodwinarchive.org/)
+
+*Text Encoding Initiative - Consortium (TEI-C)*, ["TEI: Text Encoding Initiative".](https://tei-c.org/)
+
 *Women Writers Project*, ["What is the TEI?"](https://wwp.northeastern.edu/outreach/seminars/tei.html).
+
+## Copyright
