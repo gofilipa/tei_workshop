@@ -18,4 +18,4 @@ Below are some questions, provided by the WWP, for preliminary document and proj
 
 In your groups, take a few minutes to review these questions, using the below documents from the *Picture of Dorian Gray* manuscript as a sample source text. How would you approach the encoding of such a text?
 
-![PODG_page_20](https://github.com/gofilipa/tei_workshop/dorian_gray/podg_ms_20.pdf)
+![PODG_page_20](../dorian_gray/podg_ms_20.pdf)
