@@ -16,10 +16,21 @@ Compared to HTML, a more common tagging language, XML is:
     >&lt;sentence>This is &lt;emphasis>good&lt;/emphasis>form.&lt;/sentence>
 - In general, XML is more interested in the meaning of data than in its presentation. HTML, by contrast, concerns itself with how elements are laid out on the screen.
 
+## XML declaration
+
+Every TEI document begins with an XML declaration, which specifies the *type* of document as well as how a computer might *process* that document, validating it against your chosen schema, in this case, a TEI schema. This is formally known as the *DTD*, or *Document Type Definition*. For the purposes of this workshop, you don't need to know exactly what this complicated code says, but you do need to know that it's necessary for the computer to know how to process the TEI. You might think of this code as the section of the document that establishes and specifies the relationship between TEI and its parent language, XML.
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 ## The Hierarchy - Problems to Come!
 
 Due to the parent-child relationship between XML and TEI, there are some issues with XML that TEI inherits. One of the most concerning ones, in my opinion, is the *hierarchical* nature of XML. Here is a quote by David Birnbaum which explains what I mean:
 
 >XML is a way of modeling a textual document as an ordered hierarchy, or tree, so that it can be explored with computational tools. Humanities scholars use XML to represent their documents because the tree model is convenient both as a logical representation (some aspects of the inherent structure of documents are tree-like) and for programming purposes (computers can process tree representations efficiently).
+
+This tree structure inherent in each XML document poses problems for data that does not readily fit into a hierarchical scheme. For example, .... 
 
 [<<<Previous  ](what_is_tei.md)[Next>>>](modules.md)

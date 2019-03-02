@@ -13,10 +13,7 @@ For today's workshop, we will be delving into the workings of TEI and practice u
 [What is XML?](slides/what_is_xml.md)\
 [Modules and Modeling](slides/modules.md)\
 [Basic Architecture](slides/basic_architecture.md)\
-[Primary Source Encoding](slides/primary_source_encoding.md)\
-[Preliminary Questions for Document Analysis](slides/document_analysis.md)\
-[The Header & DTD](slides/header_DTD.md)\
-[The Surface](slides/surface.md)\
+[Preliminary Questions for Document Analysis](slides/preliminary.md)\
 [Elements for Primary Source Encoding](slides/elements.md)\
 [Validating your TEI](slides/validation.md)\
 [Try it yourself!](slides/practice.md)
@@ -29,7 +26,9 @@ For today's workshop, we will be delving into the workings of TEI and practice u
 
 Birnbaum, David J. [“What is XML and Why Should Humanists Care?”](http://dh.obdurodon.org/what-is-xml.xhtml)
 
-McGann, Jerome. *Radiant Textuality: Literature after the World Wide Web.* 2001.]
+Caughie, Emily Datskou and Rebecca Parker. [“Storm Clouds on the Horizon: Feminist Ontologies and the Problem of Gender.”](https://www.tandfonline.com/doi/full/10.1080/24692921.2018.1505819?src=recsys) *Feminist Modernist Studies*, 1:3, 230-242, 2018. Web.
+
+McGann, Jerome. *Radiant Textuality: Literature after the World Wide Web.* 2001.
 
 [Shelley-Godwin Archive](http://shelleygodwinarchive.org/)
 

@@ -1,4 +1,4 @@
-[<<<Previous  ](modules.md)  [Next>>>](primary_source_encoding.md)
+[<<<Previous  ](modules.md)  [Next>>>](preliminary.md)
 
 # Basic Architecture
 
@@ -6,7 +6,11 @@
 
 Like HTML, every TEI document consists of a two parts, a head and a body. Let's start with the head, which describes the source text's metadata, and go through each element in the head one by one. 
 
-The first four elements in the header are the following, nested from outer to inner element: 
+The first line of any TEI document contains the **&lt;TEI>** element itself, which contains an attribute that points to a *namespace*. This namespace is simply used to make sure there are no errors in processing the elements names. Accordingly, the TEI element looks like the following:
+
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+Therefore, the first four elements in the header (including the TEI element) are the following, nested from outer to inner element: 
 
 **&lt;TEI>** -- declaries the document is a TEI document, and nests the entire document\
 **&lt;teiHeader>** -- nests the header section \
@@ -71,16 +75,12 @@ The **&lt;surface>** element defines a *written surface* as a two-dimensional co
 
 ## Potential Problems Arise!
 
-By now, you will see that 
+By now, you will have seen that the basic structure of TEI is hierarchical. Elements are nested within elements, and without this proper form, the code won't process properly. 
 
+But there is another sense to TEI's hierarchy. The constraints of parent elements will determine the usage and properties of their child elements. The result is that some aspects that one might want to encode, like gender, for example, struggle against rigid requirements of TEI. This became an issue for a group of people who were digitizing the memoir of Lili Elbe (also known as *The Danish Girl*), one of the first people to go through gender affirmation surgery. In the memoir, the speaker (which can be indicated in TEI with the **&lt;person>** element), inhabits a variety of gender expressions as they go through their transition. The issue was that the TEI wouldn't allow the editors to ascribe multiple or shifting gender identities to a single person, let alone multiple gender personalities within one speaking entity. The hierarchical structure of TEI simply does not allow it. The encoders explain:
 
-<!---
-<listPerson>
-The participant description in the TEI header, <particDesc>, can contain a list of persons (a <listPerson> element containing <person>s). For each <person> we could give a structured description in terms of a number of characteristics (sex, age, etc). But we can also limit ourselves to an informal description using a <p> element.
-Whenever a specific person occurs, we can then refer to the description of that person in the header. The element that we will use to refer to the description is the <rs> element. The <rs> element (referring string) is somewhat like a name element, but more generic: names are referring strings, but so are 'her oldest son' or 'the gardener'.
-DTD
-“If you're using a particular markup language, how do you make sure you use only the proper element and attribute names, properly nested? You validate your XML document against a schema, which contains the the grammar (and vocabulary) for that particular markup language. There a few different formats for schemas, the most well-known of which in the world of documents (as opposed to data) is a DTD (Document Type Definition).” (Hawkins, “Introduction to XML for Text”)
+> The deeper we got into mark-up, the more evident it became that the categories and hierarchies available to us were inadequate for our task. We not only had to deal with the occasional difference in gender attribution across the editions, but we also had to identify a male subject who at times presents himself as masquerading as a woman, at others as being inhabited by one, and who eventually becomes a woman, in a life history narrated retrospectively from the perspective of Lili Elbe. (Caughie et al. 3)
 
+This closes the overview portion of the workshop. In the next section, we are going to begin the hands-on tutorial, where I will demonstrate how to implement the guidelines, using the manuscript of Dorian Gray as our source text.
 
-
->
+[<<<Previous  ](modules.md)  [Next>>>](preliminary.md)
