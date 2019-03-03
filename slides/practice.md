@@ -17,7 +17,7 @@ Go to the home page and download the editor. Then open the package and follow th
 
 ## The Starter Text
 
-To get you started, I'm providing you with a boilerplate starter text, containing the XML and header info at the top, as well as the basic structure of the body. That way, you can jump right into encoding the lines of the manuscript. Copy and paste the following text into your text editor:
+To get you started, I'm providing you with a boilerplate starter text, containing the XML and header info at the top, as well as the basic structure of the body. That way, you can jump right into encoding the lines of the manuscript. Copy and paste the following text into your text editor, or download [this file](https://github.com/gofilipa/tei_workshop/blob/master/dorian_gray/starter_text.xml) to open it right in your text editor:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
