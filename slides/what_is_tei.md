@@ -2,6 +2,10 @@
 
 # What is TEI?
 
+## Examples of TEI Projects
+- WWP 
+- Willa Cather Online
+
 ## Defining TEI
 
 TEI stands for *Text Encoding Initiative*. Put most simply, TEI is a set of guidelines for the encoding of text. In more technical terms, it is a **markup schema** for representing the **structural, renditional,** and **conceptual features of texts**.
@@ -22,8 +26,6 @@ Markup schema, in other words, is a series of marks that indicate how a text oug
 - Conceptual: concerns the content of text, its meaning, cultural or personal references.
 
 Markup therefore describes some aspect of the text by adding additional organizational, visible, or informational elements about that text. These elements range from the more objective, physical traces on the page/screen to the more subjective ideas and assumptions about meaning and references behind the visible elements. 
-
-## EXAMPLE--IMAGE FROM WWP?????
 
 ## Incommensurability 
 

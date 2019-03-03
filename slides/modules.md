@@ -68,9 +68,19 @@ In addition to elements, TEI also contains *attributes*, or classes that further
 
 Notice a couple of things--first, the attribute followed by an equal sign, and its value is enclosed by quotation marks. This is standard form for defining the values of an attribute. If you were to use another value, say, *align*, instead of *strikethrough*, that would also have to be precended by an equal sign and enclosed by quotation marks. 
 
-You can begin to see how TEI, like many programming languages, is driven by strict rules and hierarchies. There is no room for mistakes here, everything has to be flawlessly typed out and enclosed within the parent elements. A missing quotation mark would likely corrupt the entire file, preventing it from being rendered until you fix the bug.  
+Let's see what some of this stuff looks like on the *Frankenstein* manuscript. Below, you will see an image of their code. 
+
+![frankenstein encoding](slide_images/Frank_TEI_CloseUp.png)
+
+Though this might seem a little overwhelming at first, don't worry! I will talk you through what many of these elements mean. 
+
+The important thing to notice, at this point, is the *nested* structure of the code, where each &lt;line> contains &lt;del> or &lt;add> elements, which indicate where text has been deleted or added. You can also see some attributes such as rend="strikethrough", which instruct how to render that piece of text. 
+
+You might also notice some elements that we won't be covering in this workshop, specifically the &lt;handShift> element, which is used to indicate where different writers (in this case, Mary and Percy Shelley) were writing. This is a useful element for a project that aims to reveal the different hands at work across the manuscript. However, we won't be using it in this working, because it will not be relevant for our specific project. 
 
 ## Technical → Theoretical
+
+Looking at the image, you can begin to see how TEI, like many programming languages, is driven by strict rules and hierarchies. There is no room for mistakes here, everything has to be flawlessly typed out and enclosed within the parent elements. A missing quotation mark would likely corrupt the entire file, preventing it from being rendered until you fix the bug.  
 
 The &lt;del> element is an key element in the Primary Source module of the guidelines. It is important to recognize how the specific elements within each module reinforce a certain approach toward textual encoding. Marking up a text is a *modeling activity*, in that it instantiates a certain interpretation of the textual data. In this way, the technical practice leads to a theoretical intervention. 
 

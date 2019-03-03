@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Picture of Dorian Gray: Original Manuscript</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Unpublished manuscript</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Wilde, Oscar. "The Picture of Dorian Gray: Original Manuscript." MS. 1889. Morgan Library and Museum. New York, NY.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <sourceDoc>
+        <surface>
+            <line>"You</line>
+            <line>remember that landscape of mine, for</line>
+            <line>which Agnew offered me <gap reason="deleted"></gap> a</line>
+            <line><gap reason="illegible"></gap><add place="above">huge</add>price, but which I would</line>
+            <line>not part with? It is one of the</line>
+            <line>best things I have ever done. And</line>
+            <line>why is it so? Because, while I</line>
+            <line>was painting it, Dorian Gray sat</line>
+            <line>beside me, <del rend="strikethrough">and as he leaned across</del></line>
+            <line>
+                <del rend="strikethrough">to look at it, his</del> 
+                <mod>
+                    <del rend="strikethrough">cheek</del>
+                    <add place="above" rend="strikethrough">hair</add>
+                </mod>
+                <del rend="strikethrough">just</del>
+            </line>
+        </surface>
+    </sourceDoc>
+</TEI>

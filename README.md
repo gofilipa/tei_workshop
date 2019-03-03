@@ -15,7 +15,6 @@ For today's workshop, we will be delving into the workings of TEI and practice u
 [Basic Architecture](slides/basic_architecture.md)\
 [Preliminary Questions for Document Analysis](slides/preliminary.md)\
 [Elements for Primary Source Encoding](slides/elements.md)\
-[Validating your TEI](slides/validation.md)\
 [Try it yourself!](slides/practice.md)
 
 ## Resources
