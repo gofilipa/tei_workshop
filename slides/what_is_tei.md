@@ -2,9 +2,11 @@
 
 # What is TEI?
 
-## Examples of TEI Projects
-- WWP 
-- Willa Cather Online
+Let's first take a look at some TEI code. Here is an example of some TEI encoding that indicates a piece of text has been struck out.
+
+    <line>This is a line of text <del>marked out</del>written by <person>me!</person></line>
+
+To those who are familiar with it, TEI, at first glance, looks a lot like HTML. Both use a tagging structure that encloses textual elements to indicate something about those elements. However, while HTML encodes how text should *appear* on a webpage, in the form of titles, headings, paragraphs, or links, TEI encodes the *content* of the text, in addition to some description about its appearance. Therefore, by using TEI, you can encode a text to represent its appearance, structure, and content in a way that the computer can process in order to facilitate more efficient human reading and analysis. Once a text is marked up with TEI, the relevant elements can be searched, processed, and rendered to facilitate scholarly research. It can be used to create any of the following: digital editions and archives, teaching anthologies, research corpora and collections, and many other forms of publication.
 
 ## Defining TEI
 

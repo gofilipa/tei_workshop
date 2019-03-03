@@ -1,10 +1,23 @@
 # Getting Started with TEI
 
-TEI (short for [Text Encoding Initiative](https://en.wikipedia.org/wiki/Text_Encoding_Initiative)) is a method for encoding, or marking up, texts in such a way that humans and computers can make sense of them. It is a set of standards for electronic editing that facilitates the digitization and transcription of textual material. Each standard follows certain *guidelines*,developed and maintained by the [TEI Consortium](https://tei-c.org/), which provides extensive recommendations for marking up text. These recommendations mostly consist of rules for using various “tags” to mark up certain textual elements, such as **&lt;p>** for paragraph, **&lt;editor>** for an editorial intervention, or **&lt;del>** to indicate deleted text. 
+TEI (short for [Text Encoding Initiative](https://en.wikipedia.org/wiki/Text_Encoding_Initiative)) is a method for encoding, or marking up, texts in such a way that humans and computers can make sense of them. It is a set of guidelines for electronic editing that facilitates the digitization and transcription of textual material. The guidelines are maintained by the [TEI Consortium](https://tei-c.org/), which provides extensive resources for for marking up all kinds of text into digital format. Their recommendations mostly consist of rules for using various “tags” to mark up certain textual elements, such as **&lt;line>** to indicate a line of text, **&lt;del>**, to indicate deleted text, and **&lt;person>**, for a reference to a person.
 
-By using TEI, you can encode a text to represent its structure, appearance, and content in a way that the computer can process. You might use it to mark up manuscripts, poems, prose, drama, and even audio materials. Once a text is marked up with TEI, the relevant elements can be searched, processed, and rendered to facilitate scholarly research. For example, you might provide a diplomatic transcription of a manuscript page, or allow for a full-text search that isolates specific elements like proper names or editorial emendations. Because TEI is built to be customizable, many projects develop their own standards based on one of the existing modules (or "schemas"), tailoring the schema to capture the key features of their source text. 
+You might be wondering why someone would want to go through the trouble of marking up a text for digitization, when scanning it is so much quicker and easier. There are many ways to answer this question, but let's look at one specific affordance of TEI, which is facilitating deep and complex search of textual material. The [Willa Cather Archive](https://cather.unl.edu), a digital archive of the author's novels, stories, nonfiction, letters, and journalism, offers both electronic text and high-quality scanned images of the same works. We can specifically see the TEI at work in Cather's correspondance. Here, [a seemingly simple search tool](https://cather.unl.edu/letters/search) reveals a precision and complexity that you wouldn't get with just a direct transcription or scanned images. 
 
-For today's workshop, we will be delving into the workings of TEI and practice using it hands-on. First, we will examine the guidelines, and then I will demostrate a quick tutorial on how to implement a specific subset of them, using elements from the Primary Source Editing module. For the second half of the workshop, you will get the opportunity to practice TEI by encoding a manuscript page. At the end of the workshop, we will share what we've encoded by rendering our code through oxYgen, an editor that supports TEI. 
+Besides encoding text for searching, you might provide a diplomatic transcription of a manuscript page with graphic elements, tag up a musical score, or encode an transmisssion history that indicates editorial and authorial changes over time. Because TEI is built to be customizable, many projects develop their own standards based on one of the existing guidelines, tailoring them to capture the key features of their source text. 
+
+### Objectives
+
+For today's workshop, we will be delving into the workings of TEI and practice using it hands-on. You will leave having accomplished the following:
+- Understand what TEI is and why it's used.
+- Recognize the basic structure of a TEI document.
+- Practice using a specific subset of TEI guidelines to encode a manuscript.
+
+### Agenda
+
+- First, we will examine the guidelines, getting a brief overview of a basic TEI document and some of the key elements.
+- Second, I will demostrate a quick tutorial on how to implement a specific subset of the guidelines, drawing elements from the Primary Source Editing module. 
+- Finally, for rest the workshop, you will get the opportunity to practice TEI by encoding a manuscript page (in groups), and we will share our work.
 
 [Get Started>>>](slides/what_is_tei.md)
 
@@ -33,6 +46,16 @@ McGann, Jerome. *Radiant Textuality: Literature after the World Wide Web.* 2001.
 
 *Text Encoding Initiative - Consortium (TEI-C)*, ["TEI: Text Encoding Initiative".](https://tei-c.org/)
 
+[Willa Cather Archive](https://cather.unl.edu)
+
 *Women Writers Project*, ["What is the TEI?"](https://wwp.northeastern.edu/outreach/seminars/tei.html).
 
-## Copyright
+## License
+
+Workshop leader: Filipa Calado, Graduate Center Digital Fellows
+
+
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+
+[Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
