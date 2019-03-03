@@ -4,7 +4,7 @@ TEI (short for [Text Encoding Initiative](https://en.wikipedia.org/wiki/Text_Enc
 
 You might be wondering why someone would want to go through the trouble of marking up a text for digitization, when scanning it is so much quicker and easier. There are many ways to answer this question, but let's look at one specific affordance of TEI, which is facilitating deep and complex search of textual material. The [Willa Cather Archive](https://cather.unl.edu), a digital archive of the author's novels, stories, nonfiction, letters, and journalism, offers both electronic text and high-quality scanned images of the same works. We can specifically see the TEI at work in Cather's correspondance. Here, [a seemingly simple search tool](https://cather.unl.edu/letters/search) reveals a precision and complexity that you wouldn't get with just a direct transcription or scanned images. 
 
-Besides encoding text for searching, you might provide a diplomatic transcription of a manuscript page with graphic elements, tag up a musical score, or encode an transmisssion history that indicates editorial and authorial changes over time. Because TEI is built to be customizable, many projects develop their own standards based on one of the existing guidelines, tailoring them to capture the key features of their source text. 
+Besides encoding text for searching, you might provide a diplomatic transcription, reproducing the typography the manuscript original, or encode editorial and authorial changes to a text over time. Because TEI is built to be customizable, many projects develop their own standards based on one of the existing guidelines, tailoring them to capture the key features of their source text. 
 
 ### Objectives
 

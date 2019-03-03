@@ -3,11 +3,11 @@
 # Try it yourself!
 
 Now we are beginning the fully hands-on part of the workshop. Before getting started, you will need access to the following: 
-- First, a text editor (one of your group members should download **Sublime** or **VS Code**, or you will need to borrow a laptop which has VS Code installed)
-- Second, access to **the starter text**, below, which you can copy and paste into your text editor. 
-- Third, access to a **validator**, where you can periodically copy and paste your code to see if it is valid, in other words, having no mistakes.
-- Fourth, access to the **manuscript images**, which you will be encoding.
-- Finally, access to the googledrive folder where you will be uploading your XML files at the end of the workshop. 
+- First, a text editor (one of your group members should download **Sublime** or **VS Code**, or you will need to borrow a laptop which has VS Code installed).
+- Second, access to **the starter text**, below, which you can download or copy/paste into your text editor. 
+- Third, access to a **validator**, [via this link](https://teibyexample.org/xquery/TBEvalidator.xq), where you can periodically copy and paste your code to see if it is valid, in other words, having no mistakes.
+- Fourth, access to the **manuscript images** (linked below), which you will be encoding.
+- Finally, access to the googledrive folder (also linked below), where you will be uploading your XML files at the end of the workshop. 
 
 ## Setting up a Text Editor
 
@@ -84,6 +84,6 @@ You may want to open these files as separate tabs in your browser, or download t
 
 ## Upload your File
 
-Toward the end of the workshop, or you are done with your encoding, please save your file with you team name (be creative!) to the filetype XML. After saving, upload your XML file to [this Google Drive folder](https://drive.google.com/drive/folders/17lHDHjyEkGffKfP8C6GWOjslif7uiPD5?usp=sharing). 
+Toward the end of the workshop, or you are done with your encoding, please save your file with you team name (be creative!) **to the filetype XML**, or your document won't render. After saving, upload your XML file to [this Google Drive folder](https://drive.google.com/drive/folders/17lHDHjyEkGffKfP8C6GWOjslif7uiPD5?usp=sharing). 
 
 At the end of the workshop, I will copy and paste the files into my own editor, which will allow you to see your TEI transformed into a diplomatic transcription. 
