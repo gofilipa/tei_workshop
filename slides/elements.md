@@ -56,16 +56,16 @@ Example:
 
 Additions and deletions with a causal relationship may be grouped by the  **&lt;mod>** element. This is only necessary if more than one action (adding or deleting) affects the same piece of text, such as a deletion that was then replaced with an addition. 
 
-        Example: 
+Example: 
 
-        <mod>
-            <del>deleted text</del>
-            <add>added text</add>
-        </mod>
+    <mod>
+        <del>deleted text</del>
+        <add>added text</add>
+    </mod>
 
  **&lt;gap>**
 
-Where areas in the copy text cannot be read with confidence,  **&lt;gap>** should be used with the @reason attribute indicating that the difficulty of transcription is due to illegibility. In those cases where you cannot read the text, you may encode with the following (leaving no space or text between the tags): 
+Where areas in the source cannot be read with confidence,  **&lt;gap>** should be used with the @reason attribute indicating that the difficulty of transcription is due to illegibility. In those cases where you cannot read the text, you may encode with the following (leaving no space or text between the tags): 
 
     <gap reason="illegible"></unclear>
 
