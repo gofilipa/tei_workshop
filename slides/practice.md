@@ -7,7 +7,8 @@ Now we are beginning the fully hands-on part of the workshop. Before getting sta
 - Second, access to **the starter text**, below, which you can download or copy/paste into your text editor. 
 - Third, access to a **validator**, [via this link](https://teibyexample.org/xquery/TBEvalidator.xq), where you can periodically copy and paste your code to see if it is valid, in other words, having no mistakes.
 - Fourth, access to the **manuscript images** (linked below), which you will be encoding.
-- Finally, access to the googledrive folder (also linked below), where you will be uploading your XML files at the end of the workshop. 
+- Fifth, access to the googledrive folder (also linked below), where you will be uploading your XML files at the end of the workshop. 
+- Finally, access to the workshop evaluation, by following this [link](cuny.is/gcdievals), or typing this short code into your browser: cuny.is/gcdievals
 
 ## Setting up a Text Editor
 
@@ -22,7 +23,7 @@ To get you started, I'm providing you with a boilerplate starter text, containin
     <?xml version="1.0" encoding="UTF-8"?>
     <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
     <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <TEI xmlns="http://www.tei-c.org/ns/1.0">
         <teiHeader>
             <fileDesc>
@@ -39,29 +40,20 @@ To get you started, I'm providing you with a boilerplate starter text, containin
         </teiHeader>
         <sourceDoc>
             <surface>
-                <line>"You</line>
-                <line>remember that landscape of mine, for</line>
-                <line>which Agnew offered me 
-                    <gap reason="deleted"></gap> 
-                a</line>
-                <line>
-                    <gap reason="illegible"></gap>
-                    <add place="above">huge</add>price, but which I would</line>
-                <line>not part with? It is one of the</line>
-                <line>best things I have ever done. And</line>
-                <line>why is it so? Because, while I</line>
-                <line>was painting it, Dorian Gray sat</line>
-                <line>beside me, 
-                    <del rend="strikethrough">and as he leaned across</del>
-                </line>
-                <line>
-                    <del rend="strikethrough">to look at it, his</del> 
-                    <mod>
-                        <del rend="strikethrough">cheek</del>
-                        <add place="above" rend="strikethrough">hair</add>
-                    </mod>
-                    <del rend="strikethrough">just</del>
-                </line>
+            <line>Greek. The harmony of soul and</line>
+                    <line>body---how much that is! We in</line>
+                    <line>our madness have separated the two,</line>
+                    <line>and have invented a realism that</line>
+                    <line>is bestial, an ideality that is</line>
+                    <line>void. Harry! Harry! If you only</line>
+                    <line>knew what Dorian Gray is<add place="above">to me</add>! You</line>
+                    <line>remember that landscape of mine, for</line>
+                    <line>which Agnew offered me such <gap reason="illegible"></gap>a</line>
+                    <line>
+                        <gap reason="illegible"></gap>
+                        <add place="above">huge</add>
+                        price, but which I would
+                    </line>
             </surface>
         </sourceDoc>
     </TEI>

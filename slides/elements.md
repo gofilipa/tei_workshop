@@ -1,4 +1,4 @@
-[<<<Previous  ](preliminary.md)  [Next>>>](practice.md)
+[<<<Previous  ](preliminary.md) | [Next>>>](practice.md)
 
 # Elements for Primary Source Encoding 
 
@@ -44,7 +44,7 @@ This indicates that a new line has begun in the manuscript. For a diplomatic tra
 
 Words or phrases that have been added or deleted in the source text may be recorded using **&lt;add>** and **&lt;del>**. Information about the actual rendition of the additions and deletions can be provided in the **@rend** attribute, such as a strikethrough. Additionally, the place of the addition may also be recorded using the **@place** attribute, such as **“above”** or **“below”**, which would display the text either above or below the current line. 
 
-While the **@rend** attribute can be used to record general visual aspects, the **&lt;add>** element has a specific @place attribute, for indicating where the addition is located. The **&lt;del>** element cannot use the **@place** attribute. If you need to use the **@place** attribute, encode with the **&lt;add>** element, and combine with **@rend** set to the value **"strikethrough"**.
+Important to note: The **&lt;del>** element cannot use the **@place** attribute. If you need to use the **@place** attribute, encode with the **&lt;add>** element, and combine with **@rend** set to the value **"strikethrough"**.
 
 Example:
 
@@ -65,21 +65,37 @@ Example:
 
  **&lt;gap>**
 
-Where areas in the source cannot be read with confidence,  **&lt;gap>** should be used with the @reason attribute indicating that the difficulty of transcription is due to illegibility. In those cases where you cannot read the text, you may encode with the following (leaving no space or text between the tags): 
+Where areas in the source cannot be read with confidence,  **&lt;gap>** should be used with the **@reason** attribute indicating that the difficulty of transcription is due to illegibility. In those cases where you cannot read the text, you may encode with the following: 
 
-    <gap reason="illegible"></unclear>
+    <gap reason="illegible"></gap>
 
 
 ## Putting it all together
 
-Here is an example of how some of the above elements might look in your TEI document.
+Copy and paste the following into your text editor:
         
-    <line>This is the 
-        <mod>
-            <del rend="strikethrough">wrong</del>
-            <add place="superlinear">right</add>
-        </mod>
-    way to encode with TEI.
-    </line>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>The Picture of Dorian Gray: Original Manuscript</title>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Unpublished manuscript</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>Wilde, Oscar. "The Picture of Dorian Gray: Original Manuscript." MS. 1889. Morgan Library and Museum. New York, NY.</p>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <sourceDoc>
+            <surface>
+            </surface>
+        </sourceDoc>
+    </TEI>
 
-[<<<Previous  ](preliminary.md)  [Next>>>](practice.md)
+[<<<Previous  ](preliminary.md) | [Next>>>](practice.md)

@@ -1,4 +1,4 @@
-[<<<Previous  ](basic_architecture.md)  [Next>>>](elements.md)
+[<<<Previous  ](basic_architecture.md) | [Next>>>](elements.md)
 
 # Preliminary Questions for Project Analysis
 
@@ -6,10 +6,9 @@ Before begining any encoding project, it's important to take some time to think 
 
 Because there are many directions that a TEI project might take, below are some guiding questions, provided by the WWP, for preliminary document and project analysis.
 
-1. What is the purpose of the project (e.g. preservation, research, dissemination)?
-2. As far as you can tell, how is the document structured?
-3. Are there any kinds of regularization or editorial amendment you will perform as you transcribe the text?
-4. How much information about the appearance of the document do you need to capture?
+1. As far as you can tell, how is the document structured?
+2. Are there any kinds of regularization or editorial amendment you will perform as you transcribe the text?
+3. How much information about the appearance of the document do you need to capture?
 
 In your groups, take a few minutes to review these questions, using the below documents from the [*Picture of Dorian Gray*](https://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray) manuscript as a sample source text. Based on what you can tell from the images, how would you approach the encoding of such a text? We will touch base in ten minutes. 
 
@@ -17,4 +16,4 @@ In your groups, take a few minutes to review these questions, using the below do
 
 ![PODG_page_21](slide_images/podg_ms_21.png)
 
-[<<<Previous  ](basic_architecture.md)  [Next>>>](elements.md)
+[<<<Previous  ](basic_architecture.md) | [Next>>>](elements.md)

@@ -1,4 +1,15 @@
-# Getting Started with TEI
+## Welcome! 
+
+First, welcome to this workshop, sponsored by the Graduate Center Digital Initiatives. GCDI offers different types of support for digital scholarship such as evening workshops, afternoon and evening office hours, working groups based around common tools or data sources (such as text analyis or mapping), special events and online resources. 
+
+Some ways to get involved: 
+- Check the Event Calendar for upcoming events and workshops. cuny.is/workshops
+- Drop-in to Office Hours on alternating Mondays 3-5pm and Wednesdays 5-7pm in the Digital Scholarship Lab, room 7414. Visit our website for current dates. 
+- Follow GCDI or the Digital Fellows on Twitter: @cunygcdi and @digital_fellows
+- Follow (and post to!) the #digitalGC hashtag on Twitter
+- Join the GCDI Group on the CUNY Academic Commons for all GCDI-related updates! cuny.is/group-gcdi
+
+## Getting Started with TEI
 
 TEI (short for [Text Encoding Initiative](https://en.wikipedia.org/wiki/Text_Encoding_Initiative)) is a method for encoding, or marking up, texts in such a way that humans and computers can make sense of them. It is a set of guidelines for electronic editing that facilitates the digitization and transcription of textual material. The guidelines are maintained by the [TEI Consortium](https://tei-c.org/), which provides extensive resources for for marking up all kinds of text into digital format. Their recommendations mostly consist of rules for using various “tags” to mark up certain textual elements, such as **&lt;line>** to indicate a line of text, **&lt;del>**, to indicate deleted text, and **&lt;person>**, for a reference to a person.
 

@@ -1,4 +1,4 @@
-[<<<Previous  ](what_is_xml.md)  [Next>>>](basic_architecture.md)
+[<<<Previous  ](what_is_xml.md) | [Next>>>](basic_architecture.md)
 
 # Modules and Modeling
 
@@ -10,7 +10,7 @@ The answer to these questions has to do with modules. Modules are specific subse
 
 Modules are developed and maintained by a group in the Text Encoding Initiative, called the [Consortium](https://tei-c.org/). This group publishes the full guidelines on their website, specifying encoding methods for texts in humanities, social sciences and linguistics. 
 
-The guidelines are organized into 23 modules. Each module describes a specific type of text encoding, based on the type of document you want to encode. There are also explanatory modules that explain the basic architecture and function of TEI, as well as how to implement the guidelines. They address everything from representing verse, to dictionaries, to graphs and networks. The full list of modules consist of the following: 
+The guidelines are organized into 23 modules. Each module describes a specific type of text encoding, based on the type of document you want to encode. There are also explanatory modules that describe the basic architecture and function of TEI, as well as how to implement the guidelines. All together, the guidelines address everything from representing verse, to dictionaries, to graphs and networks. The full list of modules consist of the following: 
 
     1 The TEI Infrastructure
     2 The TEI Header
@@ -48,7 +48,7 @@ Our focus, within the Primary Source module, is on *the diplomatic transcription
 
 ![frankenstein first page](slide_images/frank_transcription.png)
 
-This image shows the work of TEI in all its glory. On the left side, there is an image of the manuscript page (here, the first page of the manuscript for Mary Shelley's novel, *Frankenstein*). On the right side, there is the *diplomatic transcription*, which renders the textual elements on the page in readable form. You can see the strikethroughs and the addtions on this transcription and, depending on your familiarity with Mary Shelley's script, you may have an easier time decyphering what they say. 
+This image shows the work of TEI in all its glory. On the left side, there is an image of the manuscript page (here, the first page of the manuscript for Mary Shelley's novel, *Frankenstein*). On the right side, there is the *diplomatic transcription*, which renders the textual elements on the page in readable form. You can see the strikethroughs and the additions on this transcription and you may have an easier time decyphering what is written on the manuscript. 
 
 Pretty cool right? But this isn't all that TEI can do. Thanks to the tagging structure, which tags *not only* how elements might appear but also information about their *content*, we can also get a sense of whose writing appears in this manuscript. 
 
@@ -56,7 +56,7 @@ Some background information on this manuscript will be useful. As Mary Shelley w
 
 ![Percy Shelley's Intervention](slide_images/frank_transcription_PBS.png)
 
-Due to the tagging schema, the editors are able to indicate the sections of the manuscript where Percy's writing often overwrites Mary's. 
+Due to the tagging schema, the editors are able to indicate the sections of the manuscript where Percy often overwrites Mary. 
 
 ## Elements
 
@@ -68,11 +68,13 @@ The shortened word and its angle brackets form the anatomy of what we call an *e
 
 The actual deleted text goes insie of the **&lt;del>** tags. And you must always include both an opening and closing tag, or the computer won't know the bounds of the deleted text, and it will display as an error. 
 
-In addition to elements, TEI also contains *attributes* that further describe certain elements. These describe or qualify the element in some way, such as specifying how it should be rendered, using the *rend* attribute, for example. The attribute is always accompanied by a value that defines that attribute. If you want your deleted text to appear with a strikethrough, you would encode it the following way:
+In addition to elements, TEI also contains *attributes* that further describe certain elements. These qualify the element in some way, such as specifying how it should be rendered, using the *rend* attribute, for example. 
+
+The attribute is always accompanied by a value that defines that attribute. If you want your deleted text to appear with a strikethrough, you would encode it the following way:
 
     <del rend="strikethrough">This is striked out text</del>
 
-Notice a couple of things--first, the attribute followed by an equal sign, and its value is enclosed by quotation marks. This is standard form for defining the values of an attribute. If you were to use another value, say, *align*, instead of *strikethrough*, that would also have to be precended by an equal sign and enclosed by quotation marks. 
+Notice a couple of things--first, the attribute followed by an equal sign, and its value is enclosed by quotation marks. This is standard form for defining the values of an attribute. If you were to use another value, say, *align*, instead of *strikethrough*, that would also have to be preceded by an equal sign and enclosed by quotation marks. 
 
 Let's see what some of this stuff looks like on the *Frankenstein* manuscript. Below, you can see an image of their code. 
 
@@ -90,8 +92,8 @@ As the Women Writers Project explains,
 
 > The most significant concepts of text encoding, from a scholarly standpoint, are not the technical details but rather the broader ideas about modelling textual information, representational strategies, and editorial method: in fact, the same domain that has been the province of scholarly editing for centuries. What needs to be grasped is how these ideas translate into the digital medium, and what changes when they do. ("What Is TEI?")
 
-Markup reveals what the encoder thinks are the necessary or hidden aspects of the text. It is, therefore, an interpretation. By modeling the text, one expresses their editorial approach,imposing their own reading of the text. In this way, TEI can be a tool for scholarly research.
+Markup reveals what the encoder thinks are the necessary or hidden aspects of the text. It is, therefore, an interpretation. By modeling the text, one expresses their editorial approach, imposing their own reading of the text. In this way, TEI can be a tool for scholarly research.
 
 We will be looking more closely at the Primary Source module for our hands-on practice, where you will be encoding a manuscript. To prepare for that encoding activity, we now turn to the basic architecture of a TEI document. 
 
-[<<<Previous  ](what_is_xml.md)  [Next>>>](basic_architecture.md)
+[<<<Previous  ](what_is_xml.md) | [Next>>>](basic_architecture.md)
