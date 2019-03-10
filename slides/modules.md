@@ -4,7 +4,7 @@
 
 Before we take a look at the basic architecture of a TEI document, we need to understand how the specific elements for that document are chosen and work together to present what we might approach as a model of the source text. I say *model* because each act of encoding implies a certain reading, or way of interpreting the elements, of the source text. So how do we choose what to encode? What are the key features that we want to represent? And what are the options available with TEI?
 
-## What are Modules?
+## Modules
 
 The answer to these questions has to do with modules. Modules are specific subsets of TEI guidelines which apply to the type of encoding being done. For example, if you are encoding a manuscript or primary source, you will be using a different module from the one you would use to encode a poem. 
 
@@ -82,13 +82,9 @@ Though this might seem a little overwhelming at first, don't worry! Much of it i
 
 The important thing to notice, at this point, is the *nested* structure of the code, where each **&lt;line>** contains **&lt;del>** or **&lt;add>** elements, which indicate where text has been deleted or added. You can also see some attributes such as **rend="strikethrough"**, which instruct how to render that piece of text. 
 
-You might also notice some elements that we won't be covering in this workshop, specifically the **&lt;handShift>** element, which is used to indicate where different writers (in this case, Mary and Percy Shelley) were writing. This is a useful element for a project that aims to reveal the different hands at work across the manuscript.
-
 ## Technical → Theoretical
 
-Looking at the image, you can begin to see how TEI, like many programming languages, is driven by strict rules, structures, and hierarchies. There is no room for mistakes here, everything has to be flawlessly typed out and enclosed within the parent elements. A missing quotation mark would likely corrupt the entire file, preventing it from being rendered until you fix the bug.  
-
-The **&lt;del>** element is an key element in the Primary Source module of the guidelines. It is important to recognize how the specific elements within each module reinforce a certain approach toward textual encoding. Marking up a text is a *modeling activity*, in that it instantiates a certain interpretation of the textual data. In this way, the technical practice leads to a theoretical intervention. 
+It is important to recognize how the specific elements within each module reinforce a certain approach toward textual encoding. Marking up a text is a *modeling activity*, in that it instantiates a certain interpretation of the textual data. In this way, the technical practice leads to a theoretical intervention. 
 
 As the Women Writers Project explains, 
 

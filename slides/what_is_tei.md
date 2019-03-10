@@ -4,7 +4,7 @@
 
 Before defining TEI, let's first take a look at some TEI code. Here is an example of some TEI encoding that indicates a piece of text has been struck out.
 
-    <line>This is a line of text <del>marked out</del>written by <person>me!</person></line>
+    <line>This is a <del>paragraph</del>line of text</line>
 
 To those who are familiar with it, TEI, at first glance, looks a lot like HTML. Both use a tagging structure that encloses textual elements to indicate something about those elements. However, while HTML encodes how text should *appear* on a webpage, in the form of titles, headings, paragraphs, or links, TEI encodes the *content* of the text, in addition to some description about its appearance. 
 
@@ -31,27 +31,20 @@ Markup schema, in other words, is a series of marks that indicate how a text oug
 
 Markup therefore describes some aspect of the text by adding additional organizational, visible, or informational elements about that text. These elements range from the more objective, physical traces on the page/screen to the more subjective ideas and assumptions about meaning and references behind the visible elements. 
 
-## Incommensurability 
+## Textual Ambiguity 
 
 With TEI, a text is encoded into a computer in a way that is searchable, presentable, and readable (i.e. interpretable) by the human. Encoding with TEI also adds the benefit of making the text *sustainable*. Because the format of the TEI itself is built from a non-invasive markup language (XML), it can be preserved over time and across computer programs,and will outlast more stylized file formats like a Microsoft Word document. 
 
-While this makes TEI documents increasingly portable, it also creates the potential for problems regarding the handling of textual data. As humanists well know, textual data is open to interpretation. However, in order to be useful, the computer (and TEI specifically) imposes a certain level of fixity on textual data. In every text, there are what Jerome McGann calls “incommensurable elements”---elements that cannot be quantified, pinned down, or “tagged” in a fixed way. McGann specifically refers to sonic properties of recursive rhymes in poetry, but it also applies to topics such as gender identities or obscure references that complicate textual meaning. 
+While this makes TEI documents increasingly portable, it also creates the potential for problems regarding the handling of textual data. As humanists well know, textual data is open to interpretation. However, in order to be useful, the computer (and TEI specifically) imposes a certain level of fixity on textual data.
 
-Though the strict tagging schema of TEI may inadvertantly encourage encoders to resolve a text’s inherent incommensurability, it does a good job addressing the more fixed and disambiguated textual elements in a way that reflects widespread *consensus* about these, while opening itself to more complex tasks. 
+Though the strict tagging schema of TEI may inadvertantly encourage encoders to resolve a text’s ambiguity, it does a good job addressing the more fixed and disambiguated textual elements in a way that reflects widespread *consensus* about these, while opening itself to more complex tasks. 
 
-These questions, posed by the Women Writers Project, adequately frame how TEI attemps to harness consensus while addressing more complex issues in text encoding: 
+The Women Writers Project, a group of academics who work with TEI to encode women's writing, adequately frames how TEI uses its *inherent extensibility* to harness consensus while opening itself to more complex issues in text encoding. According to the WWP:
 
-- How can the many disciplines and communities within the humanities domain find common ground in a single encoding language? 
-- How do we agree on the level of detail that is necessary or appropriate in describing our textual materials? 
-- How do we reconcile the advantages to be gained by consistency and agreement with the need for individual specialization? 
-- How do we handle the truly idiosyncratic and unexpected? 
+>Unlike many standardization efforts, the TEI ... *explicitly accommodat[es] variation and debate within its technical framework.* The TEI Guidelines are designed to be both **modular** and **customizable**, so that specific projects can choose the relevant portions of the TEI and ignore the rest, and can also if necessary create extensions of the TEI language to describe facets of the text which the TEI does not yet address.”
 
-According to the WWP:
+In other words, TEI is built from a language that allows its users,in turn, to build their own version of that language. As a result, there is potential for representing the elements necessary to a project by customizing these elements on a project-by-project basis. It also allows encoders to mix and match existing modules in order to meet their specific needs. 
 
->Unlike many standardization efforts, the TEI addresses these and similar questions by *explicitly accommodating variation and debate within its technical framework.* The TEI Guidelines are designed to be both **modular** and **customizable**, so that specific projects can choose the relevant portions of the TEI and ignore the rest, and can also if necessary create extensions of the TEI language to describe facets of the text which the TEI does not yet address.”
-
-In other words, TEI is built from a language (actually, a meta-language) that allows its users,in turn, to build their own version of that language. As a result, there is potential for representing the elements necessary to a project by customizing these elements on a project-by-project basis. It also allows encoders to mix and match existing modules in order to meet their specific needs. 
-
-Though this doesn't solve all issues relating to textual incommensurability, it's a start. In the next section, we are going to look a little bit at XML to get a glimpse of its potential for extensibility. 
+Though this doesn't solve all issues relating to textual ambiguity, it's a start. In the next section, we are going to look a little bit at XML to get a glimpse of its potential for extensibility. 
 
 [<<<Previous  ](README.md)[Next>>>](what_is_xml.md)

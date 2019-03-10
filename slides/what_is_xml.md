@@ -27,12 +27,4 @@ This is formally known as the *DTD*, or *Document Type Definition*. For the purp
     <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
         schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-## The Hierarchy - Problems to Come!
-
-Due to the parent-child relationship between XML and TEI, there are some issues with XML that TEI inherits. One of the most concerning ones, in my opinion, is the *hierarchical* nature of XML. Here is a quote by David Birnbaum which explains what I mean:
-
->XML is a way of modeling a textual document as an ordered hierarchy, or tree, so that it can be explored with computational tools. Humanities scholars use XML to represent their documents because the tree model is convenient both as a logical representation (some aspects of the inherent structure of documents are tree-like) and for programming purposes (computers can process tree representations efficiently).
-
-This tree structure inherent in each XML document poses problems for data that does not readily fit into a hierarchical scheme. This is especially true of elements that are "incommensurable", in the words of McGann. More on this in the next section, where we discuss modeling. 
-
 [<<<Previous  ](what_is_tei.md)[Next>>>](modules.md)

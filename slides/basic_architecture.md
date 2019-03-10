@@ -47,15 +47,6 @@ Though this might seem like a lot, there are many *more* elements that you could
         </fileDesc>
     </teiHeader>
 
-Other potentially useful tags for the TEI head include: 
-**&lt;revisionDesc>** -- summarizes the revision history for a file.\
-**&lt;changeDesc>** -- groups a number of change descriptions associated with either the creation of a source text or its revision history. Each encoded change is nested by the **&lt;change>** element. 
-
-From the *Manuscript Description* module, we might be interested in adding an element that describes the identities of the writers in the document. This header  tag, **&lt;handDesc>** is then paired with the body tag, **&lt;handShift>** which is used in the areas of the document where the identitity of the writer, or "hand", has changed. 
-
-**&lt;handDesc>** -- contains a description of all the different hands used in a manuscript or other object.\
-**&lt;handShift>** -- marks the beginning of a sequence of text written in a new hand, or the beginning of a scribal stint.
-
 This is a lot of information for now--but don't worry! For our class exercise, you don't need to work with the header at all. Your encoding work will be focusing solely on the body section. So, if the header is TMI for now, you can always come back to it later. 
 
 ## The Body
