@@ -36,21 +36,21 @@ The guidelines are organized into 23 modules. Each module describes a specific t
     22 Documentation Elements
     23 Using the TEI
 
-Within each module, you will find specific guidelines and explanations for that particular type of encoding. They also provide the necessary information for customizing your own TEI schema. As you can see, the guidelines are *extensive* and present a steep learning curve for anyone who wants to fully understand the TEI framework. 
+As you can see, the guidelines are *extensive* and present a steep learning curve for anyone who wants to fully understand the TEI framework. 
 
 ## Primary Source Module
 
-Thankfully, you don't have to know all of the guidelines to use TEI. For this workshop specifically, we will be working with a subset of the guidelines, **[The Represenation of Primary Sources](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html)**, listed under Module 11. 
+Thankfully, you don't have to know all of the guidelines to use TEI. For this workshop, specifically, we will be working with a subset of the guidelines, **[The Represenation of Primary Sources](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html)**, listed under Module 11. 
 
-Even within this module, things can quickly get complicated. As anyone familiar with textual scholarship or editing knows, there are many approaches to the digitization and transcription of texts. A diplomatic transcription, for example, which attempts to render visual elements of manuscripts as they appear on the page, differs greatly from a critical edition, which exercises editorial intervention to create an authoritative or definitive text. Without going too much into editorial theory, suffice it to say that this module is robust enough to be used toward both kinds of projects. 
+Even within this module, things can quickly get complicated. As anyone familiar with textual scholarship or editing knows, there are many approaches to the editing of texts. A diplomatic transcription, for example, which attempts to render visual elements of manuscripts as they appear on the page, differs greatly from a critical edition, which exercises editorial intervention to create an authoritative or definitive text. Without going too much into editorial theory, suffice it to say that this module is robust enough to be used toward both kinds of projects. 
 
-Our focus, within the Primary Source module, is on *the diplomatic transcription of manuscripts*. This means that we will use a relatively small subset of tags that work to identify and render manuscript elements. For an example of this kind of encoding, refer to the below image from the [Shelley-Godwin Archive](http://shelleygodwinarchive.org/), which provides an archive the digitized manuscripts of Percy Shelley, Mary Shelley, William Godwin, and Mary Wollstonecraft. 
+Our focus, within the Primary Source module, is on *the diplomatic transcription of manuscripts*. This means that we will use a relatively small subset of tags that work to identify and render manuscript elements. For an example of this kind of encoding, refer to the below image from the [Shelley-Godwin Archive](http://shelleygodwinarchive.org/), which collects and displays the manuscripts of Percy Shelley, Mary Shelley, William Godwin, and Mary Wollstonecraft. 
 
 ![frankenstein first page](slide_images/frank_transcription.png)
 
-This image shows the work of TEI in all its glory. On the left side, there is an image of the manuscript page (here, the first page of the manuscript for Mary Shelley's novel, *Frankenstein*). On the right side, there is the *diplomatic transcription*, which renders the textual elements on the page in readable form. You can see the strikethroughs and the additions on this transcription and you may have an easier time decyphering what is written on the manuscript. 
+This image shows the work of TEI in all its glory. On the left side, there is an image of the manuscript page (here, the first page of the manuscript for Mary Shelley's novel, *Frankenstein*). On the right side, there is the *diplomatic transcription*, which renders the textual elements on the page in readable form. You can see the strikethroughs and the additions on this transcription and you may have an easier time decyphering what is written here than on the manuscript. 
 
-Pretty cool right? But this isn't all that TEI can do. Thanks to the tagging structure, which tags *not only* how elements might appear but also information about their *content*, we can also get a sense of whose writing appears in this manuscript. 
+Pretty cool right? But this isn't all that TEI can do for manuscripts. Thanks to the tagging structure, which tags *not only* how elements might appear but also information about their *content*, we can also get a sense of whose writing appears in this manuscript. 
 
 Some background information on this manuscript will be useful. As Mary Shelley wrote this story, her husband, Percy Shelley, revised it, adding his own deletions and additions in the interlinear spaces. With the TEI, the editor can tag the areas where Mary Shelley was drafting her story,and the areas where Percy Shelley intervened with his revisions. Below you will see Percy Shelley's emendations emphasized in red: 
 
@@ -74,7 +74,7 @@ The attribute is always accompanied by a value that defines that attribute. If y
 
     <del rend="strikethrough">This is striked out text</del>
 
-Notice a couple of things--first, the attribute followed by an equal sign, and its value is enclosed by quotation marks. This is standard form for defining the values of an attribute. If you were to use another value, say, *align*, instead of *strikethrough*, that would also have to be preceded by an equal sign and enclosed by quotation marks. 
+Notice a couple of things--first, the attribute followed by an equal sign, and its value is enclosed by quotation marks. This is standard form for defining the values of an attribute.
 
 Let's see what some of this stuff looks like on the *Frankenstein* manuscript. Below, you can see an image of their code. 
 
@@ -86,13 +86,13 @@ The important thing to notice, at this point, is the *nested* structure of the c
 
 ## Technical → Theoretical
 
-It is important to recognize how the specific elements within each module reinforce a certain approach toward textual encoding. Marking up a text is a *modeling activity*, in that it instantiates a certain interpretation of the textual data. In this way, the technical practice leads to a theoretical intervention. 
+It is important to recognize how the specific elements within each module reinforce a certain approach toward textual editing. Marking up a text is a *modeling activity*, in that it instantiates a certain interpretation of the textual data. In this way, the technical practice leads to a theoretical intervention. 
 
 As the Women Writers Project explains, 
 
 > The most significant concepts of text encoding, from a scholarly standpoint, are not the technical details but rather the broader ideas about modelling textual information, representational strategies, and editorial method: in fact, the same domain that has been the province of scholarly editing for centuries. What needs to be grasped is how these ideas translate into the digital medium, and what changes when they do. ("What Is TEI?")
 
-Markup reveals what the encoder thinks are the necessary or hidden aspects of the text. It is, therefore, an interpretation. By modeling the text, one expresses their editorial approach, imposing their own reading of the text. In this way, TEI can be a tool for scholarly research.
+Markup reveals what the encoder thinks are the necessary or hidden aspects of the text. It is, therefore, an interpretation. By modeling the text, one expresses their editorial approach, imposing their own reading of the text. In this way, TEI can be a tool for scholarship.
 
 We will be looking more closely at the Primary Source module for our hands-on practice, where you will be encoding a manuscript. To prepare for that encoding activity, we now turn to the basic architecture of a TEI document. 
 

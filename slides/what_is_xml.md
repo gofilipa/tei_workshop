@@ -2,18 +2,19 @@
 
 # What is XML? 
 
-XML, or *eXtensible Markup Language*, is not actually a language, but a framework for creating more specific markup languages. TEI evolved from XML, and XML itself evolved from SGML ("Standard Generalized Markup Language"), which was an effort to come up with a standard way of annotating documents.
+XML, or *eXtensible Markup Language*, is not actually a language, but a framework for creating more specific markup languages.
 
-As a modular, extensible XML schema, TEI is made specifically to render humanities textual data. But it carries with it many aspects and qualities that are inherent to XML. 
+TEI evolved from XML, made specifically to render humanities textual data. It carries with it many aspects and qualities that are inherent to XML. Let's look at some of these qualities that TEI inherits. 
 
-First, "eXtensible" means that you can extend, or customize, the XML. In other words, XML allows you to create your own tags. TEI itself is an example of XML’s eXtensibility! 
+First, "eXtensible" means that you can extend, or customize, the XML. In other words, XML allows you to create your own tags.
 
-Here is a list of some other key properties of XML (and, therefore, inherited by TEI):
-- the documents must be *well-formed* according to a defined syntax---tags must nest properly, that is, you must always close the last tag you opened before closing a previous one.
-    >&lt;sentence>This is &lt;emphasis>bad&lt;/sentence>form.&lt;/emphasis> 
+Second, the documents must be *well-formed* according to a defined syntax---tags must nest properly, that is, you must always close the last tag you opened before closing a tag you opened previous to the last one.
 
-    >&lt;sentence>This is &lt;emphasis>good&lt;/emphasis>form.&lt;/sentence>
-- In general, XML is intersested in the meaning of data in addition to its presentation. HTML, by contrast, concerns itself with how elements are laid out on the screen.
+    <sentence>This is <emphasis>bad</sentence>form.</emphasis> 
+
+    <sentence>This is <emphasis>good</emphasis>form.</sentence>
+
+Finally, XML is intersested in the meaning of data in addition to its presentation. Contrast this to HTML, which concerns itself with how elements are laid out on the screen.
 
 ## XML declaration
 

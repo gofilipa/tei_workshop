@@ -48,9 +48,15 @@ Important to note: The **&lt;del>** element cannot use the **@place** attribute.
 
 Example:
 
-    <add>added text goes here.</add>
-    <add place="above">this text will appear above the current line.</add>
-    <del rend="strikethrough">deleted text, with a strikethrough, goes here.</del>
+    <line>
+        <add>Some added text goes here.</add>
+        <add place="above">this text will appear above the current line.</add>
+        <del rend="strikethrough">deleted text, with a strikethrough, goes here.</del>
+    </line>
+
+    <line>
+        <add place="above" rend="strikethrough>this text will appear above the current line, with a strikethrough.</add>
+    </line>
 
  **&lt;mod>**
 
@@ -59,16 +65,15 @@ Additions and deletions with a causal relationship may be grouped by the  **&lt;
 Example: 
 
     <mod>
-        <del>deleted text</del>
-        <add>added text</add>
+        <del>text that was deleted text</del>
+        <add>text that was added to replace the deleted text</add>
     </mod>
 
  **&lt;gap>**
 
-Where areas in the source cannot be read with confidence,  **&lt;gap>** should be used with the **@reason** attribute indicating that the difficulty of transcription is due to illegibility. In those cases where you cannot read the text, you may encode with the following: 
+In areas where the source text cannot be read with confidence,  **&lt;gap>** should be used with the **@reason** attribute indicating that the difficulty of transcription is due to illegibility. In those cases where you cannot read the text, you may encode with the following: 
 
     <gap reason="illegible"></gap>
-
 
 ## Putting it all together
 

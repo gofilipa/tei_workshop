@@ -65,22 +65,6 @@ The header section ends with a TEI header end tag: **&lt;/teiHeader>**. The body
 
 For our purposes, you might think of the **&lt;sourceDoc>** element a "body" tag in HTML. It functions in just the same way. 
 
-Besides **&lt;sourceDoc>**, we will also be using the **&lt;surface>**, which is nested inside the **&lt;sourceDoc>** element. The **&lt;surface>** element defines a *written surface* as a two-dimensional coordinate space. Basically, it creates a plane where you can then pinpoint specific coordinates for written elements to appear, kind of like making a literal map of the textual surface. That being said, you don't need to use the coordinate function (though it can be beneficial). You can simply indicate that a surface exists, and move on to transcribing the elements within that surface. 
-
 The TEI element, being the most outer tag, encloses all the text on the document. It's end tag looks like this: **&lt;/TEI>**
-
-## Problems Arise!
-
-By now, you will have seen that the basic structure of TEI is hierarchical. Elements are nested within elements, and without this proper form, the code won't process properly. 
-
-But there is another sense to TEI's hierarchy. The constraints of parent elements will determine the usage and properties of their child elements. The result is that some aspects that one might want to encode, like gender, for example, struggle against rigid requirements of TEI's hierarchy (where gender is contained within the **&lt;person>** element). 
-
-This became an issue for a group of people who were digitizing the memoir of Lili Elbe (also known as *The Danish Girl*), one of the first people to go through gender affirmation surgery. In the memoir, the speaker (which can be indicated with the **&lt;person>** element), inhabits a variety of gender expressions as they go through their transition. The issue was that the TEI wouldn't allow the editors to ascribe multiple or shifting gender identities to a single person, let alone multiple gender personalities within one speaking entity. The hierarchical structure of TEI simply does not allow it. The encoders explain:
-
-> The deeper we got into mark-up, the more evident it became that the categories and hierarchies available to us were inadequate for our task. We not only had to deal with the occasional difference in gender attribution across the editions, but we also had to identify a male subject who at times presents himself as masquerading as a woman, at others as being inhabited by one, and who eventually becomes a woman, in a life history narrated retrospectively from the perspective of Lili Elbe. (Caughie et al. 3)
-
-On the one hand, it's frustrating to come up againt such obstacles in research, especially when they create what appears to be an impasse in the encoding work, and TEI is to blame. On the other hand, by creating such difficult situations, TEI itself can be seen as a tool for revealing (without resolving) complex textual data. In that case, it can be very useful, even if it's not practical. 
-
-This closes the overview portion of the workshop. In the next section, we are going to begin the hands-on tutorial, starting with a group brainstorm on our goals for encoding. After that, I will demonstrate you might implement the guidelines, using the manuscript of Dorian Gray as our source text.
 
 [<<<Previous  ](modules.md) | [Next>>>](preliminary.md)
