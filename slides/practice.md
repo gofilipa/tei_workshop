@@ -8,7 +8,7 @@ Now we are beginning the fully hands-on part of the workshop. Before getting sta
 - Third, access to a **validator**, [via this link](https://teibyexample.org/xquery/TBEvalidator.xq), where you can periodically copy and paste your code to see if it is valid, in other words, having no mistakes.
 - Fourth, access to the **manuscript images** which you will be encoding.
     ![Image of First Manuscript Page](https://github.com/gofilipa/tei_workshop/blob/master/dorian_gray/podg_ms_20.pdf)
-- Fifth, access to [this Google Drive folder](https://drive.google.com/drive/folders/17lHDHjyEkGffKfP8C6GWOjslif7uiPD5?usp=sharing), where you will be uploading your XML files at the end of the workshop. Please follow below directions on how to save your file.
+- Fifth, access to [this Google Drive folder](https://drive.google.com/drive/folders/1Ifr3Y2SD8ktr-7_07CwgnMN-5NJrQsQJ?usp=sharing), where you will be uploading your XML files at the end of the workshop. Please follow below directions on how to save your file.
 - Finally, access to the workshop evaluation, by following this [link](cuny.is/gcdievals), or typing this short code into your browser: cuny.is/gcdievals
 
 ## Setting up a Text Editor
