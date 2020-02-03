@@ -77,6 +77,6 @@ You may want to open these files as separate tabs in your browser, or download t
 
 ## Upload your File
 
-Toward the end of the workshop, or you are done with your encoding, please save your file with you team name (be creative!) **to the filetype XML**, or your document won't render. After saving, upload your XML file to [this Google Drive folder](https://drive.google.com/drive/folders/17lHDHjyEkGffKfP8C6GWOjslif7uiPD5?usp=sharing). 
+Toward the end of the workshop, or you are done with your encoding, please save your file with you team name (be creative!) **to the filetype XML**, or your document won't render. After saving, upload your XML file to [this Google Drive folder](https://drive.google.com/drive/folders/1Ifr3Y2SD8ktr-7_07CwgnMN-5NJrQsQJ?usp=sharing). 
 
 At the end of the workshop, I will copy and paste the files into my own editor, which will allow you to see your TEI transformed into a diplomatic transcription. 
