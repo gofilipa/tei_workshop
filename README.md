@@ -4,7 +4,7 @@ First, welcome to this workshop, sponsored by the Graduate Center Digital Initia
 
 Some ways to get involved: 
 - Check the [Event Calendar](cuny.is/workshops) for upcoming events and workshops: cuny.is/workshops
-- Drop-in to Office Hours in the Digital Scholarship Lab, room 7414. Dates and times forthcoming. [Visit the Digital Fellows website for the schedule](https://digitalfellows.commons.gc.cuny.edu/digital-fellows-office-hours/).
+- Drop-in to Office Hours in the Digital Scholarship Lab, room 7414. Dates and times on the calendar.
 - Follow GCDI or the Digital Fellows on Twitter: [@cunygcdi](https://twitter.com/cunygcdi?lang=en) and [@digital_fellows](https://twitter.com/digital_fellows?lang=en).
 - Follow (and post to!) the **#digitalGC** hashtag on Twitter
 - Join [the GCDI Group](cuny.is/group-gcdi) on the CUNY Academic Commons for all GCDI-related updates! cuny.is/group-gcdi
@@ -40,6 +40,7 @@ For today's workshop, we will be delving into the workings of TEI and practice u
 [Preliminary Questions for Document Analysis](slides/preliminary.md)\
 [Elements for Primary Source Encoding](slides/elements.md)\
 [Try it yourself!](slides/practice.md)
+[Next Steps](slides/next_steps.md)
 
 ## Resources
 
