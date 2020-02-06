@@ -1,5 +1,7 @@
 # Want More Practice or Exposure?
 
+Check out the DARC wiki on [Text Editing](https://darc.gcdiprojects.org/Text_Editing_Encoding_Analysis).
+
 Check out these local TEI projects that are soliciting user input:
 - [Open Editions](https://open-editions.org/contribute/)
 - James Joyce's [*Portrait of the Artist as a Young Man*](https://github.com/open-editions/corpus-joyce-portrait-TEI)
