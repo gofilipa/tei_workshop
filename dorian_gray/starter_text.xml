@@ -18,23 +18,7 @@
     </teiHeader>
     <sourceDoc>
         <surface>
-            <line>"You</line>
-            <line>remember that landscape of mine, for</line>
-            <line>which Agnew offered me <gap reason="deleted"></gap> a</line>
-            <line><gap reason="illegible"></gap><add place="above">huge</add>price, but which I would</line>
-            <line>not part with? It is one of the</line>
-            <line>best things I have ever done. And</line>
-            <line>why is it so? Because, while I</line>
-            <line>was painting it, Dorian Gray sat</line>
-            <line>beside me, <del rend="strikethrough">and as he leaned across</del></line>
-            <line>
-                <del rend="strikethrough">to look at it, his</del> 
-                <mod>
-                    <del rend="strikethrough">cheek</del>
-                    <add place="above" rend="strikethrough">hair</add>
-                </mod>
-                <del rend="strikethrough">just</del>
-            </line>
+            
         </surface>
     </sourceDoc>
 </TEI>
