@@ -42,6 +42,10 @@ Consider copyright terms for the text you are encoding, particularly Fair Use co
 
 *Text Encoding Initiative - Consortium (TEI-C)*, ["TEI: Text Encoding Initiative".](https://tei-c.org/)
 
-## Acknowledgements
+## License
 
-Filipa Calado
+Workshop leader: Filipa Calado, Graduate Center Digital Fellows
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+
+[Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).

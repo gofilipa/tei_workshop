@@ -66,7 +66,6 @@ McGann, Jerome. *Radiant Textuality: Literature after the World Wide Web.* 2001.
 
 Workshop leader: Filipa Calado, Graduate Center Digital Fellows
 
-
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
 [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
