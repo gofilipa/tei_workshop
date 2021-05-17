@@ -1,5 +1,7 @@
 # Frontmatter
 
+Skip to [Workshop](intro.md).
+
 ## Abstract
 
 This workshop is a deep introduction to the theory and practice of encoding electronic texts for the humanities. It is designed for students who are interested in the transcription and digitization of manuscripts and print-based texts into diplomatic, digital formats. The workshop contains three parts: first, an overview of TEI and the major schemas; second, a quick introduction and tutorial on one or more applications used for encoding; and finally, for the bulk of the workshop, students will get the opportunity to practice encoding a manuscript page in small groups. Throughout this work, we will discuss common issues with encoding, such as how to tag complex identities and data.
