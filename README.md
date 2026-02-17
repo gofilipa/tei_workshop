@@ -2,6 +2,8 @@
 
 This workshop introduces the process of text encoding with TEI and guides participants to practice using it hands-on to transcribe a manuscript page into a digital format. 
 
+[Start workshhop](./intro.md)
+
 ## Credits
 This workshop was written by [Filipa Calado](https://github.com/gofilipa).
 
