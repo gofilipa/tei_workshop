@@ -1,7 +1,5 @@
 # Introduction to TEI (Text Encoding Initiative)
 
-Skip to [Frontmatter](frontmatter.md).
-
 This workshop introduces the process of text encoding with TEI and guides participants to practice using it hands-on to transcribe a manuscript page into a digital format. 
 
 ## Credits
