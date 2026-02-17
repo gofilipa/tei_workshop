@@ -3,17 +3,11 @@
 # Try it yourself!
 
 Now we are beginning the fully hands-on part of the workshop. Before getting started, you will need access to the following: 
-- First, a text editor (one of your group members should download **Sublime** or **VS Code**, or you will need to borrow a laptop which has VS Code installed).
+- First, a text editor (ideally, **VS Code**).
 - Second, access to **the starter text**, below, which you can download or copy/paste into your text editor. 
 - Third, access to a **validator**, [via this link](https://www.teibyexample.org/exist/tools/TBEvalidator.htm), where you can periodically copy and paste your code to see if it is valid, in other words, having no mistakes.
 - Fourth, access to the **manuscript images** which you will be encoding, check pages 20-21.
-    ![Link to the Manuscript at the Morgan Library](https://www.themorgan.org/collection/oscar-wilde/the-picture-of-dorian-gray)
-
-## Setting up a Text Editor
-
-If you don't already have a text editor on your computer, you should download [VS Code](https://code.visualstudio.com/download). 
-
-Go to the home page and download the editor. Then open the package and follow the steps to install and open. 
+    - [Link to the Manuscript at the Morgan Library](https://www.themorgan.org/collection/oscar-wilde/the-picture-of-dorian-gray)
 
 ## The Starter Text
 
