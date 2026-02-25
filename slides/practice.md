@@ -1,4 +1,4 @@
-[<<<Previous  ](elements.md)|[Next>>>](next_steps.md)
+[<<<Previous  ](elements.md)| [Next>>>](next_steps.md)
 
 # Try it yourself!
 
